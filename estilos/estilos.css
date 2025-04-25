@@ -15,6 +15,7 @@ html, body {
 	/*background:url(../img/fondo.jpg) no-repeat fixed center top;*/
 	background-size:100% auto;
 	line-height:18px;
+    background-color: #ffd2ab7f;
 }
 
 /* Modificación de comportamiento de los enlaces */
@@ -328,91 +329,17 @@ p {
     background-color: #0056b3;
 }
 
-/*copos de nieve pagina 5*/
-.snowflakes {
+/* Estilos para Vanta.js */
+#vanta-bg {
     position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
-    pointer-events: none; /* Para que los copos no interfieran con los clics */
-    z-index: -1; /* Para que estén detrás del contenido */
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 
-.snowflake {
-    color: #fff;
-    font-size: 1em;
-    position: absolute;
-    animation: fall linear infinite;
-    user-select: none;
-    white-space: nowrap;
+.container_pag5 {
+    position: relative;
+    z-index: 1;
 }
-
-@keyframes fall {
-    to {
-        transform: translateY(105vh);
-    }
-}
-
-/* Tamaños y velocidades aleatorias para los copos */
-.snowflake:nth-child(1) {
-    font-size: 0.8em;
-    left: 5%;
-    animation-duration: 10s;
-}
-
-.snowflake:nth-child(2) {
-    font-size: 1.2em;
-    left: 15%;
-    animation-duration: 15s;
-}
-
-.snowflake:nth-child(3) {
-    font-size: 0.9em;
-    left: 25%;
-    animation-duration: 12s;
-}
-
-.snowflake:nth-child(4) {
-    font-size: 1.5em;
-    left: 35%;
-    animation-duration: 18s;
-}
-
-.snowflake:nth-child(5) {
-    font-size: 0.7em;
-    left: 45%;
-    animation-duration: 9s;
-}
-
-.snowflake:nth-child(6) {
-    font-size: 1.1em;
-    left: 55%;
-    animation-duration: 14s;
-}
-
-.snowflake:nth-child(7) {
-    font-size: 1.3em;
-    left: 65%;
-    animation-duration: 16s;
-}
-
-.snowflake:nth-child(8) {
-    font-size: 0.6em;
-    left: 75%;
-    animation-duration: 11s;
-}
-
-.snowflake:nth-child(9) {
-    font-size: 1em;
-    left: 85%;
-    animation-duration: 13s;
-}
-
-.snowflake:nth-child(10) {
-    font-size: 1.4em;
-    left: 95%;
-    animation-duration: 17s;
-}
-
-/* Puedes añadir más copos con diferentes tamaños, posiciones iniciales y duraciones de animación */
