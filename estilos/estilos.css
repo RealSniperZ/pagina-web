@@ -265,42 +265,49 @@ p {
     border: 1px solid #ccc; /* Añadimos un borde sutil */
     border-radius: 5px;     /* Añadimos bordes redondeados */
 }
-.mensaje_confirmacion {
-    font-size: 18px;
-    color: #333;
-    line-height: 1.6;
-    margin-bottom: 20px;
-    white-space: pre-line;
-    /* Mantiene los saltos de línea del HTML */
-}
+
 
 /****************************************************/
 /* Fin de definición de estilos para el formulario */
 /****************************************************/
 
-/************************************************************************/
-/* Apartado para la pagina enlace 5 extra para el envio del formualrio */
-/**********************************************************************/
-/* Estilos para el botón "Volver al Inicio" en la página de confirmación */
-.boton_volver {
-    display: inline-block; /* Lo convierte en un elemento de bloque en línea */
-    padding: 10px 20px;    /* Espaciado interno (arriba/abajo, izquierda/derecha) */
-    background-color: #f0f0f0; /* Color de fondo (gris claro) */
-    color: #333;          /* Color del texto (gris oscuro) */
-    text-decoration: none;  /* Quita el subrayado (si lo hubiera) */
-    border: 1px solid #ccc; /* Borde delgado y gris */
-    border-radius: 5px;     /* Bordes redondeados */
-    cursor: pointer;        /* Cambia el cursor al pasar por encima */
-    font-family: sans-serif; /* Fuente simple para que coincida con el boceto */
-    font-size: 16px;        /* Tamaño de la letra */
-    margin-top: 20px;      /* Espacio arriba del botón */
-    transition: background-color 0.2s ease; /* Transición suave del color de fondo */
+.body_pag5{	 
+	font-family: sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-color: #f4f4f4;
+	margin: 0;
+	}
+
+.fondo_pag5{
+	background-color: rgb(243, 230, 192);
+	
 }
 
-.boton_volver:hover {
-    background-color: #ddd; /* Color de fondo un poco más oscuro al pasar el ratón */
+.text_color_pag5{
+	color: #1488FF;
+	margin-bottom: 20px;
+}
+.button_pag5{
+	display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
 }
 
-/****************************************************************************/
-/* Fin Apartado para la pagina enlace 5 extra para el envio del formualrio */
-/**********************************************************************/
+.boton_color_pag5 {
+    background-color: #0056b3;
+}
+
+.contenedor_pag5 {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
