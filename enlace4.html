@@ -9,47 +9,55 @@
     <meta name="lang" content="es">
     <meta name="revisit-after" content="2 days">
     <meta name="category" content="Prácticas" />
-<!-- Declaración de fichero de estilos -->
-<link rel="stylesheet" type="text/css" href="estilos/estilos.css">
+    <link rel="stylesheet" type="text/css" href="estilos/estilos.css">
     <title>Registro</title>
 </head>
 <body>
     <header>
         <nav>
-            <!--Div que contiene el menú-->
             <div class="div_menu">
-            <span class="botonin">
-            <a href="index.html" class="div_menu">Inicio</a>
-            </span>
-            <span class="boton">
-            <a href="enlace1.html"
-            class="div_menu">Noticias</a>
-            </span>
-            <span class="boton">
-                <a href="enlace2.html"
-                class="div_menu">Enlaces</a>
+                <span class="botonin">
+                    <a href="index.html" class="div_menu">Inicio</a>
                 </span>
                 <span class="boton">
-                <a href="enlace3.html"
-                class="div_menu">Galería</a>
+                    <a href="enlace1.html" class="div_menu">Noticias</a>
                 </span>
                 <span class="boton">
-                <a href="enlace4.html"
-                class="div_menu">Registro</a>
+                    <a href="enlace2.html" class="div_menu">Enlaces</a>
                 </span>
-                </div>
-                </nav>
-        </header>
-        <section>
-        <article>
-        Contenido del articulo 1.
-        </article>
-        <article>
-        Contenido del articulo 2.
-        </article>
-        </section>
-        <footer>
-            Contenido del pié de página.
-            </footer>
+                <span class="boton">
+                    <a href="enlace3.html" class="div_menu">Galería</a>
+                </span>
+                <span class="boton">
+                    <a href="enlace4.html" class="div_menu">Registro</a>
+                </span>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <h2>RELLENA LOS SIGUIENTES CAMPOS:</h2>
+        <form action="#" method="post" class="formulario">
+            <label for="nombre">NOMBRE:</label><br>
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre (requerido)" class="caja_gris"><br><br>
+
+            <label for="direccion">DIRECCION:</label><br>
+            <input type="text" id="direccion" name="direccion" placeholder="Direccion (requerido)" class="caja_gris"><br><br>
+
+            <label for="telefono">TELEFONO DE CONTACTO:</label><br>
+            <input type="text" id="telefono" name="telefono" placeholder="Telefono (requerido)" class="caja_gris"><br><br>
+
+            <label for="edad">EDAD:</label><br>
+            <input type="text" id="edad" name="edad" placeholder="Edad (requerido)" class="caja_gris"><br><br>
+
+            <label for="email">E-MAIL:</label><br>
+            <input type="email" id="email" name="email" placeholder="Direccion@correo.com (requerido)" class="caja_gris"><br><br>
+
+            <input type="submit" value="ENVIAR FORMULARIO" class="boton_form morado">
+            <input type="reset" value="BORRAR FORMULARIO" class="boton_form morado">
+        </form>
+    </section>
+    <footer>
+        Contenido del pié de página.
+    </footer>
 </body>
 </html>
