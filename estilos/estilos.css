@@ -271,3 +271,148 @@ p {
 /* Fin de definición de estilos para el formulario */
 /****************************************************/
 
+/*pagina de confirmacion*/
+.body_pag5 {
+	font-family: sans-serif;
+    background-color: #ffd2abc3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+
+.container_pag5 {
+	background-color: #fff;
+    border-radius: 12px; /* Aumentamos el radio para que sea un poco más redondeado */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Sutilmente más pronunciada la sombra */
+    padding: 40px; /* Aumentamos el padding para hacer el recuadro más grande */
+    text-align: center;
+    width: 400px; /* Establecemos un ancho fijo para el recuadro */
+}
+
+.message-box_pag5 {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-message_pag5 {
+	font-size: 2em; /* Aumentamos el tamaño del texto principal */
+    color: #333;
+    margin-bottom: 10px; /* Aumentamos el margen inferior */
+}
+
+.secondary-message_pag5 {
+	font-size: 1.2em; /* Aumentamos el tamaño del texto secundario */
+    color: #777;
+    margin-bottom: 20px; /* Aumentamos el margen inferior */
+}
+
+.button-container_pag5 {
+    margin-top: 30px; /* Aumentamos el margen superior */
+}
+.return-button_pag5 {
+	background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 24px; /* Aumentamos el padding del botón */
+    border-radius: 6px; /* Ajustamos el radio del botón */
+    cursor: pointer;
+    font-size: 1.1em; /* Aumentamos el tamaño del texto del botón */
+    transition: background-color 0.3s ease;
+}
+
+.return-button:hover {
+    background-color: #0056b3;
+}
+
+/*copos de nieve pagina 5*/
+.snowflakes {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* Para que los copos no interfieran con los clics */
+    z-index: -1; /* Para que estén detrás del contenido */
+}
+
+.snowflake {
+    color: #fff;
+    font-size: 1em;
+    position: absolute;
+    animation: fall linear infinite;
+    user-select: none;
+    white-space: nowrap;
+}
+
+@keyframes fall {
+    to {
+        transform: translateY(105vh);
+    }
+}
+
+/* Tamaños y velocidades aleatorias para los copos */
+.snowflake:nth-child(1) {
+    font-size: 0.8em;
+    left: 5%;
+    animation-duration: 10s;
+}
+
+.snowflake:nth-child(2) {
+    font-size: 1.2em;
+    left: 15%;
+    animation-duration: 15s;
+}
+
+.snowflake:nth-child(3) {
+    font-size: 0.9em;
+    left: 25%;
+    animation-duration: 12s;
+}
+
+.snowflake:nth-child(4) {
+    font-size: 1.5em;
+    left: 35%;
+    animation-duration: 18s;
+}
+
+.snowflake:nth-child(5) {
+    font-size: 0.7em;
+    left: 45%;
+    animation-duration: 9s;
+}
+
+.snowflake:nth-child(6) {
+    font-size: 1.1em;
+    left: 55%;
+    animation-duration: 14s;
+}
+
+.snowflake:nth-child(7) {
+    font-size: 1.3em;
+    left: 65%;
+    animation-duration: 16s;
+}
+
+.snowflake:nth-child(8) {
+    font-size: 0.6em;
+    left: 75%;
+    animation-duration: 11s;
+}
+
+.snowflake:nth-child(9) {
+    font-size: 1em;
+    left: 85%;
+    animation-duration: 13s;
+}
+
+.snowflake:nth-child(10) {
+    font-size: 1.4em;
+    left: 95%;
+    animation-duration: 17s;
+}
+
+/* Puedes añadir más copos con diferentes tamaños, posiciones iniciales y duraciones de animación */
