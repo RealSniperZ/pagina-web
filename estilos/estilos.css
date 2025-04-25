@@ -156,15 +156,15 @@ p {
 }
 
 /* Estilo de imágenes cuadradas artículos */
-#imagen_der {
-	float: right;
-	margin-left: 20px;
+.imagen_der {
+	display: flex;
+	align-items: center;
 }
 
 #imagen_der{
 	margin-left: 5%;
 	height: 100%;
-	WIDTH: 100%;
+	width: 100%;
 }
 
 #imagen_cabecera{
