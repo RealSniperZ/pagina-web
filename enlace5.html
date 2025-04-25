@@ -3,21 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="NOFOLLOW">
-    <meta name="Author" content="Gabriel">
-    <meta name="Keyboard" content="Demo,prieba,practica5">
-    <meta name="lang" content="es">
-    <meta name="revisit-after" content="2 days">
-    <meta name="category" content="Prácticas" />
-    <link rel="stylesheet" type="text/css" href="estilos/estilos.css">
-    <title>Página de Confirmación</title>
+    <title>¡Formulario Enviado!</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+            margin: 0;
+        }
+        .container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h2 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        p {
+            color: #666;
+            margin-bottom: 30px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
-    <section>
-        <div id="div_seccion_principal">
-            <p class="mensaje_confirmacion">Tu formulario ha sido<br>Enviado con exito<br>Gracias por confiar en<br>nosotros</p>
-            <a href="index.html" class="boton_volver">Volver al Inicio</a>
-        </div>
-    </section>
+    <div class="container">
+        <h2>Tu formulario ha sido enviado con éxito</h2>
+        <p>Gracias por confiar en nosotros.</p>
+        <a href="#" class="button">Volver al inicio</a>
+    </div>
 </body>
 </html>

@@ -265,6 +265,14 @@ p {
     border: 1px solid #ccc; /* Añadimos un borde sutil */
     border-radius: 5px;     /* Añadimos bordes redondeados */
 }
+.mensaje_confirmacion {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    white-space: pre-line;
+    /* Mantiene los saltos de línea del HTML */
+}
 
 /****************************************************/
 /* Fin de definición de estilos para el formulario */
