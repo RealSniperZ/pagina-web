@@ -269,3 +269,30 @@ p {
 /****************************************************/
 /* Fin de definición de estilos para el formulario */
 /****************************************************/
+
+/************************************************************************/
+/* Apartado para la pagina enlace 5 extra para el envio del formualrio */
+/**********************************************************************/
+/* Estilos para el botón "Volver al Inicio" en la página de confirmación */
+.boton_volver {
+    display: inline-block; /* Lo convierte en un elemento de bloque en línea */
+    padding: 10px 20px;    /* Espaciado interno (arriba/abajo, izquierda/derecha) */
+    background-color: #f0f0f0; /* Color de fondo (gris claro) */
+    color: #333;          /* Color del texto (gris oscuro) */
+    text-decoration: none;  /* Quita el subrayado (si lo hubiera) */
+    border: 1px solid #ccc; /* Borde delgado y gris */
+    border-radius: 5px;     /* Bordes redondeados */
+    cursor: pointer;        /* Cambia el cursor al pasar por encima */
+    font-family: sans-serif; /* Fuente simple para que coincida con el boceto */
+    font-size: 16px;        /* Tamaño de la letra */
+    margin-top: 20px;      /* Espacio arriba del botón */
+    transition: background-color 0.2s ease; /* Transición suave del color de fondo */
+}
+
+.boton_volver:hover {
+    background-color: #ddd; /* Color de fondo un poco más oscuro al pasar el ratón */
+}
+
+/****************************************************************************/
+/* Fin Apartado para la pagina enlace 5 extra para el envio del formualrio */
+/**********************************************************************/
